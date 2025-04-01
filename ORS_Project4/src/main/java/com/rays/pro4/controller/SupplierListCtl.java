@@ -45,7 +45,6 @@ public class SupplierListCtl extends BaseCtl {
         bean.setCategory(DataUtility.getString(request.getParameter("category")));
         bean.setPayment(DataUtility.getString(request.getParameter("payment")));
       
-       
          
         return bean;
     }
